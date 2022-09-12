@@ -9,8 +9,17 @@
             "request": "launch",
             "name": "Launch web app",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/app",
-            
+            "webRoot": "${workspaceFolder}/app"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ReadFFApplication<readff>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.shook.readff.ReadFFApplication",
+            "projectName": "readff",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

@@ -28,5 +28,5 @@ public class Article {
     @NonNull
     public String title;
     @NonNull
-    public String text;
+    public String content;
 }

@@ -12,6 +12,9 @@ export const articleSlice = createSlice({
             var maxId: number = Math.max(...state.map(a => a.id));
             createdArticle.id = maxId + 1;
             state.push(createdArticle);
+        },
+        loadArticles: () => {
+
         }
     }
 })
